@@ -9,9 +9,11 @@ pip install -r requirement.txt
 
 **2.Download the THz Dataset as below:**
 https://github.com/wtnthu/THz_data
+Please put the decompressed data in ./New_data_align
 
 ### Run the code
-All hyper-parameters can be modified in config.py and run.sh
+All hyper-parameters can be modified in config.py and run.sh such as:
+item=deer, channel=64, sub=16
 
 **1.Run run.sh to train the SARNet model. when 2080-Ti GPU, batchsize is 32.**
 
